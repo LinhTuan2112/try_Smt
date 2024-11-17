@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 //Lấy tên trái cây được chọn ra
                 String selectedFruit = fruits[position];
                 //hiển thị thông báo khi click vào mục
-                Toast.makeText(MainActivity.this,"Bạn chọn: " + selectedFruit, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Bạn chọn:123123 " + selectedFruit, Toast.LENGTH_SHORT).show();
             }
         });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -46,5 +46,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        ]
+        // add button 
     }
 }

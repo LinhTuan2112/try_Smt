@@ -18,7 +18,7 @@ public CustomAdapter(Context context, String[] fruits, int[] images){
     this.fruits = fruits;
 }
 
-
+// add
     @Override
     public int getCount() {
         return fruits.length;
